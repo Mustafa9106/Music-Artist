@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main-img {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 20;
+}
+.content {
+  margin: 180px 250px;
+  text-align: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  z-index: 1000;
+}
+.content > h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.content > h1,
+h5 {
+  position: relative;
+  bottom: 550px;
+  color: white;
+}
+.about-me {
+  position: relative;
+  bottom: 460px;
+  background-color: black;
+  height: 133vh;
+}
+.about-content {
+  color: white;
+  position: relative;
+  bottom: 500px;
+  background: transparent;
+  margin: 0px 250px;
+  width: 50%;
+  z-index: 1;
+}
+.about-content > img {
+  position: relative;
+  left: 480px;
+  bottom: 280px;
+  z-index: -1;
+}
+.counts {
+  background-color: black;
+  padding: 70px;
+  position: relative;
+  bottom: 600px;
+  margin: 10px 200px;
+  font-size: 30px;
+
+  height: 100%;
+  display: flex;
+}
+.content3 {
+  display: flex;
+  flex-direction: row;
+  position: relatives;
+}
+.content3 > .join {
+  background-color: black;
+  color: white;
+  height: 475px;
+  width: 750px;
+  position: relative;
+  bottom: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+table > tbody > tr > td ,th {
+padding: 4px;
+text-align: center;
+  /* display: flex;
+  flex-direction: row; */
+}
+.headphone2 > img {
+  position: relative;
+  left: 0px;
+  bottom: 500px;
+  width: 600px;
+}
+.headings {
+  position: relative;
+  margin: -400px 100px;
+  text-align: center;
+}
+.music {
+  background-color: #b62519;
+  /* padding: 50px; */
+  height: 100vh;
+  position: relative;
+  top: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+section.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 600px;
+  text-align: center;
+  color: white;
+}
+.listeners {
+  background-color: #ee4c3ed0;
+  padding: 14px;
+  font-size: 1.5em;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.mix {
+  background: url(img/listen1.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+.collabs {
+  background: url(img/listen2.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+.beats {
+  background: url(img/listen3.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+.listen-music {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 500;
+  position: relative;
+  top: 80px;
+}
+.up-events {
+  position: relative;
+  top: 700px;
+  justify-content: center;
+  background-color: #b62519;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  margin: 10px 300px;
+}
+.booking{
+    position: relative;
+    display: flex;
+    top: 750px;
+    flex-wrap: wrap;
+    
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    margin: 0 400px;
+    padding: 20px;
+    word-wrap:normal;
+}
+textarea , input {
+    background-color: rgba(0, 0, 0, 0.13);
+    border: none;
+
+}
+#submit{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.footer{
+  background: url(img/footerimg.jpg);
+  height: 100vh;
+  display: flex;
+  position: relative;
+  top: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  flex-wrap: wrap;
+}
